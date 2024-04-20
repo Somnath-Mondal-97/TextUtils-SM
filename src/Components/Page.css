@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+/* Navbar */
+
+.nav-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav-part{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: "Jersey 20", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: royalblue;
+}
+
+.home-link, .about-link{
+    text-decoration: none;
+    color: brown;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.home-link:hover,.about-link:hover{
+    text-decoration: underline;
+}
+
+.right-nav-part{
+    display: flex;
+    gap: 20px;
+}
+
+/*TextForm*/
+
+.text-form-heading{
+    font-family: "Jersey 20", sans-serif;
+    font-style: italic;
+    font-size: 55px;
+}
+
+.text-form-text-area{
+    border-color: black;
+}
+
+.text-form-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+}
+
+.text-form-heading-result,.text-form-heading-summary{
+    font-family: "Jersey 20", sans-serif;
+    font-style: italic;
+    font-size: 45px;
+}
+
+/* AboutApp */
+
+.about-text-utils{
+    text-align: center;
+}
+
+.about-text-utils h1{
+    font-family: "Jersey 20", sans-serif;
+    font-style: italic;
+    font-size: 55px;
+}
